@@ -34,7 +34,7 @@ const ProductCard = ({ product }: { product: Product }) => {
         <h2 className="font-semibold line-clamp-1">{product?.name}</h2>
         <p>{product?.intro}</p>
         <PriceView
-          className="text-lg"
+          className="text-lg text-black"
           price={product?.price}
           discount={product?.discount}
         />
